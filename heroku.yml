@@ -2,7 +2,8 @@ build:
   docker:
     reference-server: Dockerfile
 release:
-  command: ./release-heroku.sh
+  command:
+    - ./release-heroku.sh
   image: reference-server
 run:
   watch_transactions:
