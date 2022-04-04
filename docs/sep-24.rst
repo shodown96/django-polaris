@@ -264,7 +264,7 @@ All of the methods used to process form data are defined on the :class:`~polaris
     from polaris.templates import Template
     from polaris.integrations import (
         DepositIntegration,
-        WithdrawIntegration,
+        WithdrawalIntegration,
         TransactionForm
     )
     from .users import user_for_account, create_user
